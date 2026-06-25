@@ -25,25 +25,25 @@ The **Data Integration CRUD System** acts as a middleware pipeline that ingests 
 * **API Testing:** Postman / cURL
 
 ---
-
 ## 📂 Project Structure
 
-text
+```text
 dataintegration-crud/
 │
 ├── prisma/
 │   └── schema.prisma        # Prisma database models and configuration
 │
-├── src/ (or root)
-│   ├── server.js            # Main entry point and Express application setup
-│   # Optional expansion folders:
-│   ├── controllers/         # Request handling and logic for CRUD functions
-│   └── routes/              # Express route definitions
+├── src/
+│   └── server.js            # Main entry point and Express application setup
 │
 ├── .gitignore               # Excluded files (node_modules, .env)
 ├── package.json             # Project metadata and dependencies
 └── README.md                # Project documentation
+```
+---
 
 
-🧑‍💻 DeveloperAmna Shaban - Backend Engineering Intern at Decodelabs
+## 🧑‍💻 Developer
 
+**Amna Shaban**  
+*Backend Engineering Intern at Decodelabs*  
