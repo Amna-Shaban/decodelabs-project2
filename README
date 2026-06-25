@@ -1,0 +1,42 @@
+# Data Integration CRUD System
+
+A robust backend application developed as part of the **Decodelabs Backend Development Internship (Project 2)**. This project focuses on integrating data from various formats and exposing a clean RESTful API to perform standard CRUD (Create, Read, Update, Delete) operations.
+
+---
+
+## 🚀 Project Overview
+
+The **Data Integration CRUD System** acts as a middleware pipeline that ingests data from multiple external sources, transforms and validates the data, and stores it securely within a relational database. It exposes a set of standard API endpoints, enabling seamless data manipulation and consumption.
+
+### Key Features
+* **Data Ingestion & Parsing:** Seamless integration of data from diverse formats (e.g., JSON, CSV, XML).
+* **Robust CRUD Architecture:** Standardized API endpoints handling full data lifecycles.
+* **Data Transformation:** Automated mapping and cleaning of incoming records to match database constraints.
+* **Error Handling & Validation:** Built-in validation structures providing clear HTTP response codes and error messages.
+
+---
+
+## 🛠️ Tech Stack
+
+* **Backend Framework:** Python / Flask
+* **Database & ORM:** SQLite / SQLAlchemy (or PostgreSQL/MySQL)
+* **Data Handling:** Pandas / Native Python Parsers
+* **API Testing:** Postman / cURL
+
+---
+
+## 📂 Project Structure
+
+```text
+dataintegration-crud/
+│
+├── app/
+│   ├── __init__.py          # Application initialization
+│   ├── routes.py            # API endpoints & controller logic
+│   ├── models.py            # Database schemas and models
+│   └── database.py          # Connection and session management
+│
+├── .gitignore               # Excluded files (venv, cache, env variables)
+├── requirements.txt         # Project dependencies
+├── run.py                   # Main application entry point
+└── README.md                # Project documentation
